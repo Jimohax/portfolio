@@ -398,6 +398,8 @@ h1, h2, h3, h4, h5,
 		position: relative;
 		height: 750px;
 		z-index: 0;
+		-ms-touch-action: auto;
+        touch-action: auto;
 		
 		.slider-item {
 			background-size: cover;
